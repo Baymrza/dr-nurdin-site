@@ -8,10 +8,54 @@
 <meta name="theme-color" content="#16255A">
 <link rel="icon" href="assets/img/tooth.png">
 
+<!-- Адрес сайта. Если появится свой домен — поменять его здесь,
+     в sitemap.xml и в robots.txt. -->
+<link rel="canonical" href="https://dr-nurdin-site.vercel.app/">
+
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://dr-nurdin-site.vercel.app/">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Dr.Nurdin Zh">
 <meta property="og:title" content="Dr.Nurdin Zh — стоматолог в Оше">
 <meta property="og:description" content="Стоматология «ДентАс», ул. Алайская 35А, Ош. 8 лет практики. Первая консультация бесплатно.">
-<meta property="og:image" content="assets/img/doctor-cabinet.jpg">
+<meta property="og:image" content="https://dr-nurdin-site.vercel.app/assets/img/doctor-cabinet.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Карточка организации для поисковиков: имя, адрес, телефон, часы.
+     Google берёт отсюда данные для блока с картой. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Dr.Nurdin Zh — стоматология",
+  "url": "https://dr-nurdin-site.vercel.app/",
+  "image": "https://dr-nurdin-site.vercel.app/assets/img/doctor-cabinet.jpg",
+  "description": "Стоматология доктора Нурдина в Оше: лечение кариеса и каналов, брекеты, керамические коронки и виниры, профессиональная гигиена. 8 лет практики в Москве и Кыргызстане.",
+  "telephone": "+996776725800",
+  "priceRange": "$$",
+  "currenciesAccepted": "KGS",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ул. Алайская 35А",
+    "addressLocality": "Ош",
+    "addressCountry": "KG"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    "opens": "09:00",
+    "closes": "19:00"
+  }],
+  "sameAs": ["https://www.instagram.com/nurdinzh"],
+  "availableService": [
+    { "@type": "MedicalProcedure", "name": "Лечение кариеса и пломбирование" },
+    { "@type": "MedicalProcedure", "name": "Лечение корневых каналов" },
+    { "@type": "MedicalProcedure", "name": "Брекет-системы и исправление прикуса" },
+    { "@type": "MedicalProcedure", "name": "Керамические коронки и виниры" },
+    { "@type": "MedicalProcedure", "name": "Профессиональная гигиена и отбеливание" }
+  ]
+}
+</script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
